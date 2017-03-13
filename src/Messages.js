@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 class Messages extends Component {
   renderMessage (message) {
-    return (<div className='well' key={message.id}>{message.content} - {message.when}</div>)
+    return (<div className='well' key={message.id}>{message.contents} - {message.when}</div>)
   }
   render () {
     return (<div className='well'>
